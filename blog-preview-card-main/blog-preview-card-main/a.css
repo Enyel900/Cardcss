@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+
+    ---color-black: hsl(0, 0%, 7%);
+    ---color-green:  hsl(0, 0%, 50%);
+    ---color-white: hsl(0, 0%, 100%);
+    ---color-yellow: hsl(47, 88%, 63%);
+
+}
+
+
+
+body{
+    box-sizing: border-box;
+    background-color: var(---color-yellow);
+    font-family: "Figtree", sans-serif;
+}
+
+
+.card{
+    width: 340px;
+    height: 450px;
+    background-color: var(---color-white);
+    align-items: center;
+    margin: 90px 0px 90px 10px ;
+    border-radius: 15px;
+    border: 1px  solid var(---color-black);
+    border-right: 10px solid var(---color-black);
+    border-bottom: 10px solid var(---color-black);
+
+}
+
+.images{
+
+    width: 310px;
+    border-radius: 13px;
+    margin:  0px 15px;
+    margin-top: 22px; 
+    
+   
+    
+    
+    
+ 
+}
+
+.parrafa{
+   
+    font-size: 13px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    font-weight: bold;
+  
+}
+
+.div1{
+
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    margin:   15px;
+    margin-top: 15px;
+    background-color: var(---color-yellow);
+    
+
+}
+
+.parrafa2{
+    margin:   15px;
+    margin-top: -5px;
+    font-size: 12px;
+}
+
+
+.h1{
+
+    margin:   15px;
+    
+    margin-top: -5px;
+    font-size: 20px;
+
+}
+
+#parrafa3{
+    margin:   15px;
+    width: 310px;
+    color: var(---color-green);
+   
+    font-size: 15px;
+}
+.image{
+    display: flex;
+    margin: 15px;
+    
+   
+    
+    
+    
+}
+
+.image > img{
+    width: 35px;
+    
+}
+
+.image > p{
+    font-size: 15px;
+    margin: 10px;
+   
+}
+
+
+
+@media screen and (min-width:400px) {
+
+    
+        
+    .card{
+        margin: 150px auto;
+    }
+    
+    .h1:hover{
+        color: var(---color-yellow);
+    }
+}
